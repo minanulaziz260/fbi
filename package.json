@@ -1,0 +1,15 @@
+{
+  "name": "fb-downloader-bot",
+  "version": "1.0.0",
+  "description": "Telegram Bot - Facebook Video Downloader",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "dotenv": "^16.0.0",
+    "yt-dlp-wrap": "^2.3.12",
+    "uuid": "^9.0.0"
+  }
+}
